@@ -16,6 +16,7 @@
             <a href="skills.html">Skills</a>
             <a href="education.html">Education</a>
             <a href="experience.html">Experience</a>
+            <a href="experience.html#projects">Projects</a>
             <a href="contact.html" class="active">Contact</a>
         </nav>
     </header>
@@ -45,13 +46,13 @@
                 </div>
             </div>
 
-            <form class="contact-form">
-                <input type="text" placeholder="Your Name" required>
-                <input type="email" placeholder="Your Email" required>
-                <input type="text" placeholder="Subject">
-                <textarea rows="6" placeholder="Your Message" required></textarea>
-                <button type="submit" class="btn">Send Message</button>
-            </form>
+            <form class="contact-form" action="https://formspree.io/f/xqenjqok" method="POST">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <input type="text" name="subject" placeholder="Subject" required>
+    <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+    <button type="submit" class="btn">Send Message</button>
+</form>
 
         </div>
     </section>
